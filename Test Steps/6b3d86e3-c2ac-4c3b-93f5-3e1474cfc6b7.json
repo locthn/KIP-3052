@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home, click on hyperlink women",
+        "step 3: At Page home, click on hyperlink dress > navigate to Page category products",
+        "step 4: At Page category products, click on hyperlink add to cart",
+        "step 5: Add visual checkpoint at Page category products"
+    ]
+}

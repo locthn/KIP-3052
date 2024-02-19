@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home, click on hyperlink api testing > navigate to Page api list",
+        "step 3: At Page api list, click on hyperlink api 1 get all products list",
+        "step 4: At Page api list, click on hyperlink products > navigate to Page products",
+        "step 5: Add visual checkpoint at Page products"
+    ]
+}

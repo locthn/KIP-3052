@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home, click on hyperlink products > navigate to Page products",
+        "step 3: At Page products, click on hyperlink view product > navigate to Page product details",
+        "step 4: At Page product details, click on hyperlink 5 madame > navigate to Page brand products Madame",
+        "step 5: Add visual checkpoint at Page brand products Madame"
+    ]
+}

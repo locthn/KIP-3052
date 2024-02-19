@@ -1,7 +1,7 @@
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -35,19 +35,19 @@ WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/products
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_products/hyperlink_view_product'))
 
-'Step 4: At Page product details, click on hyperlink 5 madame > navigate to Page brand products Madame'
+'Step 4: At Page product details, click on button add to cart'
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product_details/hyperlink_5_madame'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product_details/button_add_to_cart'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product_details/.*?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product_details/hyperlink_5_madame'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product_details/button_add_to_cart'))
 
-'Step 5: Add visual checkpoint at Page brand products Madame'
+'Step 5: Add visual checkpoint at Page product details'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Viewing Brand Products for Madame_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Adding Product to Cart from Product Details_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

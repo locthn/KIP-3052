@@ -1,29 +1,29 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Adding Dress to Cart on Women s Category Page,Navigate to the home page and access the women's category. Add a dress to the cart and verify the category products page.,"step 1: Navigate to Page home
+1,Verify Adding Dress to Cart from Women s Category,Navigate to the home page and click on women's category. Select a dress and add it to the cart. Verify the dress is added to the cart.,"step 1: Navigate to Page home
 step 2: At Page home, click on hyperlink women
 step 3: At Page home, click on hyperlink dress > navigate to Page category products
 step 4: At Page category products, click on hyperlink add to cart
 step 5: Add visual checkpoint at Page category products",High
-2,Verify Viewing Cart after Adding Dress from Women s Category Page,Navigate to the home page and access the women's category. Add a dress to the cart and view the cart to verify the cart page.,"step 1: Navigate to Page home
+2,Verify Viewing Cart after Adding Dress from Women s Category,Navigate to the home page and click on women's category. Select a dress and add it to the cart. Proceed to view the cart and verify the displayed cart.,"step 1: Navigate to Page home
 step 2: At Page home, click on hyperlink women
 step 3: At Page home, click on hyperlink dress > navigate to Page category products
 step 4: At Page category products, click on hyperlink cart > navigate to Page view cart
 step 5: Add visual checkpoint at Page view cart",High
-3,Verify Brand Products for Madame in the Products Section,Navigate to the home page and access the products section. View the product details and navigate to the brand products for Madame. Verify the Madame brand products page.,"step 1: Navigate to Page home
+3,Verify Viewing Brand Products for Madame,Navigate to the home page and access the product details. Click on the brand 'Madame' and verify the displayed brand products.,"step 1: Navigate to Page home
 step 2: At Page home, click on hyperlink products > navigate to Page products
 step 3: At Page products, click on hyperlink view product > navigate to Page product details
 step 4: At Page product details, click on hyperlink 5 madame > navigate to Page brand products Madame
-step 5: Add visual checkpoint at Page brand products Madame",High
-4,Verify Product Details after Adding to Cart from Product Details Page,Navigate to the home page and access the products section. View the product details and add the product to the cart. Verify the product details page.,"step 1: Navigate to Page home
+step 5: Add visual checkpoint at Page brand products Madame",Medium
+4,Verify Adding Product to Cart from Product Details,Navigate to the home page and access the product details. Add the product to the cart and verify the product details page.,"step 1: Navigate to Page home
 step 2: At Page home, click on hyperlink products > navigate to Page products
 step 3: At Page products, click on hyperlink view product > navigate to Page product details
 step 4: At Page product details, click on button add to cart
 step 5: Add visual checkpoint at Page product details",Medium
-5,Verify Products Page after Navigating from API Testing,Navigate to the home page and access the API list. View the details for getting all products and navigate to the products page. Verify the products page.,"step 1: Navigate to Page home
+5,Verify Accessing Products from API Testing,Navigate to the home page and access the API list. Select the API to get all products list and verify the displayed products page.,"step 1: Navigate to Page home
 step 2: At Page home, click on hyperlink api testing > navigate to Page api list
 step 3: At Page api list, click on hyperlink api 1 get all products list
 step 4: At Page api list, click on hyperlink products > navigate to Page products
 step 5: Add visual checkpoint at Page products",Medium
-6,Verify Viewing Cart from Home Page,Navigate to the home page and view the cart to verify the cart page.,"step 1: Navigate to Page home
+6,Verify Viewing Cart from Home Page,Navigate to the home page and directly view the cart. Verify the displayed cart.,"step 1: Navigate to Page home
 step 2: At Page home, click on hyperlink cart > navigate to Page view cart
 step 3: Add visual checkpoint at Page view cart",Trivial

@@ -1,7 +1,7 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.model.FailureHandling
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.model.FailureHandling
 
 'Initialize test session: Open browser and set view port'
 
@@ -47,7 +47,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_api_list/hyperlink_product
 
 'Step 5: Add visual checkpoint at Page products'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Products Page after Navigating from API Testing_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Accessing Products from API Testing_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
